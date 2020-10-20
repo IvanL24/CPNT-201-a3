@@ -6,48 +6,65 @@ background-color: rgb(211, 107, 11);
 
 
 main {
+
   display: grid;
+
   height: 100vh;
+
   flex-direction: column;
+
 }
 
 svg .shape {
+
   fill: orangered;
+
 }
 
 svg .shape2 {
+
   stroke: rgb(2, 71, 2);
   fill: rgb(91, 172, 91);
+
 }
 
 svg .face {
+
   fill: rgb(158, 0, 0);
+
 }
 
 svg .face2 {
-  stroke: rgb(2, 71, 2);
 
+  stroke: rgb(2, 71, 2);
   fill: rgb(0, 255, 64);
+
 }
 
 
 svg .shade {
+
   fill: rgb(80, 25, 6);
+
 }
 
 svg .shade2 {
+
   stroke: rgb(0, 255, 64);
 
 }
 
 main button {
-  font-size: 3ch;
+
   height: 3rem;
-  width: 10rem;
-  background-color: rgb(45, 45, 255);
+  width: 12rem;
+
+  font-size: 3ch;
   letter-spacing: 3px;
   font-weight: bold;
   color: oldlace;
+  
   border-radius: 1rem;
+  background-color: rgb(45, 45, 255);
 
 }
